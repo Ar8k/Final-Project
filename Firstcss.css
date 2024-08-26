@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rosybrown;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: cyan;
+    color: dimgray;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 5px 0;
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 120px;
+}
+
+footer {
+    background-color: cyan;
+    color: dimgray;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid black;
+}
+
+h1 {
+    color: cyan;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: overline underline;
+    text-decoration-color: black;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(66, 123, 61);
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+}
+
+#Messibutton {
+    background-color: rgb(33, 158, 241);
+    border-color: rgb(66, 123, 61);
+    -webkit-text-fill-color: white;
+}
+
+#p1, #p2, #p3 {
+    text-align: center;
+}
+
+#p2 {
+    color: rgb(255, 255, 255);
+    text-decoration: double underline;
+}
+
+#p3 {
+    color: rgb(0, 195, 255);
+    text-decoration: double underline;
+}
+
+#ron {
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Ahmed Alodayli-->
+    <title>find a Palindrome</title>
+    <!--below is how i link my css and my javascript-->
+    <link rel="stylesheet" href="StringMain.css">
+    <script src="StringsMain.js"></script>
+    <h1>
+    <center>
+        Welcome to find a Palindrome!
+    </center>
+    </h1>
+    
+</head>
+<nav>
+    <center><h2>Navigation</h2>
+        <a href="First.game.html">Game</a>
+        <a href="StringsMain.html">Palindrome</a>
+        <a href="Treasure.html">User Input Validation</a>
+        <a href="Boards.html">Boards</a>
+        <a href="WorkOut.html">Work Out Routine</a>
+    </center>
+</nav>  
+
+<body> <!--below is my first paragraph, i made it h5 which is the size of the text-->
+    <p><h5> <center>The aim of the game is to find a word that is the same reversed, For example
+     "Mom", reverse it and you get "Mom" </center> </h5> </p>
+     <br><br><br><br><br><br><!--below is my first form its very usefull because users can add thier 
+     input and am also able to adjust whatever i need in my javascript with it-->
+     <center><form onsubmit="return false">
+        <!--below is my first input, "enter a word" on the very left is what is displayed to the user,
+        then the iput type which is text here, you can also make it a number and the person can only
+        enter a number, and at the end i added an id so i can do what i need to do in my javascript-->
+        Enter a word <input type="text" id="firstStr">
+        <!--below is a submit button that when clicked starts my javascript code connected to it-->
+        <input type="submit" onclick="reverse();">
+        </form><br><BR><BR>
+        <!--below is my second paragraph, am using this one to show the results-->
+        <p id="result">The Result: </p>
+    </center>
+
+    
+</body>
+<!--below are break codes, i just add them to give space so my footer is at the bottom, there is 
+probably a better way to do this that i do not know yet-->
+<BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<BR><BR><BR><BR><BR><BR><BR><BR>
+<BR><BR><BR><BR><BR><BR>
+<!--below is my footer with my copyright notice so no one steals my precious code-->
+<footer><center> 2024 AA Website. All Rights Reserved </center></footer>
+</html>
